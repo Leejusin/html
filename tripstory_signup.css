@@ -1,0 +1,230 @@
+.sign_up{
+/* SING UP */
+
+position: absolute;
+width: 122px;
+height: 36px;
+left: 803px;
+top: 79px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.comment_signup{
+    /* 당신과 함께하는 가장 가까운 여행 파트너 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 777px;
+    top: 131px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #949494;
+
+}
+
+.id{
+/* 아이디 */
+
+position: absolute;
+width: 40px;
+height: 12px;
+left: 669px;
+top: 198px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #959595;
+}
+
+.id_panel{
+/* Rectangle 38 */
+
+position: absolute;
+width: 391px;
+height: 40px;
+left: 669px;
+top: 221px;
+
+background: #F7F7F7;
+border-radius: 4px;
+}
+
+.nickname{
+/* 닉네임 */
+
+position: absolute;
+width: 40px;
+height: 12px;
+left: 669px;
+top: 272px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #959595;
+}
+
+.nick_panel{
+/* Rectangle 39 */
+
+position: absolute;
+width: 391px;
+height: 40px;
+left: 669px;
+top: 295px;
+
+background: #F7F7F7;
+border-radius: 4px;
+}
+
+.pw{
+/* 비밀번호 */
+
+position: absolute;
+width: 40px;
+height: 12px;
+left: 669px;
+top: 346px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #959595;
+}
+
+.pw_panel{
+/* Rectangle 40 */
+
+position: absolute;
+width: 391px;
+height: 40px;
+left: 669px;
+top: 369px;
+
+background: #F7F7F7;
+border-radius: 4px;
+}
+
+.check_pw{
+/* 비밀번호 확인 */
+
+position: absolute;
+width: 70px;
+height: 12px;
+left: 669px;
+top: 420px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #959595;
+}
+
+.check_pw_panel{
+/* Rectangle 41 */
+
+position: absolute;
+width: 391px;
+height: 40px;
+left: 669px;
+top: 443px;
+
+background: #F7F7F7;
+border-radius: 4px;
+}
+
+.check_id_panel{
+/* Rectangle 42 */
+
+position: absolute;
+width: 60px;
+height: 40px;
+left: 1000px;
+top: 221px;
+
+background: #E2E2E2;
+}
+
+.check_id{
+/* 중복 확인 */
+
+position: absolute;
+width: 40px;
+height: 12px;
+left: 1010px;
+top: 225px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+z-index: 2;
+
+color: #757575;
+}
+
+.checkbox_style1{
+    position: absolute;
+    left: 750px;
+    top: 500px;
+}
+
+.sign_up_button{
+/* Rectangle 37 */
+
+position: absolute;
+width: 202px;
+height: 38px;
+left: 782px;
+top: 580px;
+
+background: #4378FF;
+border-radius: 4px;
+}
+
+.back_button{
+/* Rectangle 37 */
+
+position: absolute;
+width: 202px;
+height: 38px;
+left: 782px;
+top: 630px;
+
+background: #4378FF;
+border-radius: 4px;
+}
+

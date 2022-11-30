@@ -1,0 +1,762 @@
+.earth {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 437px;
+    top: 311px;
+    background: url(image/earth.png);
+    z-index: 2;
+}
+
+.earth_panel{
+    /* Rectangle 77 */
+
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 486px;
+    top: 311px;
+
+
+    background: #D9D9D9;
+}
+
+.date_img{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 437px;
+    top: 392px;
+    background: url(image/date.png);
+    z-index: 2;
+}
+
+.date_panel{
+    /* Rectangle 78 */
+
+position: absolute;
+width: 271px;
+height: 40px;
+left: 486px;
+top: 392px;
+
+background: #D9D9D9;
+}
+
+.panel{
+    /* Rectangle 79 */
+
+position: absolute;
+width: 271px;
+height: 40px;
+left: 486px;
+top: 473px;
+z-index: 1;
+
+background: #D9D9D9;
+}
+
+.Rect1{
+/* Rectangle 72 */
+
+position: absolute;
+width: 763px;
+height: 71px;
+left: 460px;
+top: 607px;
+
+background: #F4F4F4;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Rect2{
+/* Rectangle 73 */
+
+position: absolute;
+width: 190px;
+height: 72px;
+left: 460px;
+top: 606px;
+
+background: rgba(67, 120, 255, 0.5);
+}
+
+.panel2{
+/* Rectangle 75 */
+
+position: absolute;
+width: 763px;
+height: 71px;
+left: 460px;
+top: 607px;
+
+background: #F4F4F4;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.select_panel{
+/* Rectangle 76 */
+
+position: absolute;
+width: 190px;
+height: 72px;
+left: 460px;
+top: 606px;
+
+background: rgba(67, 120, 255, 0.5);
+}
+
+.calender{
+    position:absolute;
+    width: 345px;
+    height: 244px;
+    left: 878px;
+    top: 295px;
+
+    background-image: url(image/달력.PNG);
+}
+
+.nov_2022{
+    /* 2022년 NOBEMBER */
+
+    position: absolute;
+    width: 183px;
+    height: 47px;
+    left: 974px;
+    top: 200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.date{
+    /* 일정 */
+    
+    position: absolute;
+    width: 144px;
+    height: 31px;
+    left: 525px;
+    top: 600px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    
+    color: #000000;
+    }
+    
+    .checklist{
+    /* 체크리스트 */
+    
+    
+    position: absolute;
+    width: 170px;
+    height: 29px;
+    left: 785px;
+    top: 600px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    
+    color: #000000;
+    }
+    
+    .money{
+    /* 가계부 */
+    
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 1050px;
+    top: 600px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    
+    color: #000000;
+}
+
+.Dec_30{
+/* DAY 1 12.30/금 */
+
+position: absolute;
+width: 265px;
+height: 56px;
+left: 470px;
+top: 740px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.Rect3{
+/* Rectangle 67 */
+
+position: absolute;
+width: 713px;
+height: 230px;
+left: 483px;
+top: 825px;
+
+background: #EFEFEF;
+border-radius: 10px;
+}
+
+.Rect4{
+/* Rectangle 68 */
+
+position: absolute;
+width: 712px;
+height: 356px;
+left: 482px;
+top: 1170px;
+
+background: #EFEFEF;
+border-radius: 10px;
+}
+
+.Dec_31{
+/* DAY 2 12.31/토 */
+
+position: absolute;
+width: 254px;
+height: 45px;
+left: 470px;
+top: 1085px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.Jan_1{
+/* DAY 3 1.1/일 */
+
+position: absolute;
+width: 230px;
+height: 44px;
+left: 470px;
+top: 1535px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.checklist_panel{
+/* Rectangle 113 */
+
+
+position: absolute;
+width: 727px;
+height: 82px;
+left: 507px;
+top: 783px;
+
+background: #EDEDED;
+}
+
+.checklist_panel1{
+/* Rectangle 114 */
+
+
+position: absolute;
+width: 727px;
+height: 82px;
+left: 507px;
+top: 879px;
+
+background: #EDEDED;
+}
+
+.checklist_panel2{
+/* Rectangle 115 */
+
+
+position: absolute;
+width: 727px;
+height: 82px;
+left: 507px;
+top: 975px;
+
+background: #EDEDED;
+}
+
+.checklist_panel3{
+/* Rectangle 116 */
+
+
+position: absolute;
+width: 727px;
+height: 81px;
+left: 507px;
+top: 1071px;
+
+background: #EDEDED;
+}
+
+.checklist_panel4{
+/* Rectangle 117 */
+
+
+position: absolute;
+width: 727px;
+height: 82px;
+left: 507px;
+top: 1166px;
+
+background: #EDEDED;
+}
+
+.checklist_panel5{
+/* Rectangle 118 */
+
+
+position: absolute;
+width: 727px;
+height: 82px;
+left: 507px;
+top: 1262px;
+
+background: #EDEDED;
+}
+
+.checklist_panel6{
+/* Rectangle 119 */
+
+
+position: absolute;
+width: 727px;
+height: 82px;
+left: 507px;
+top: 1358px;
+
+background: #EDEDED;
+}
+
+.trip_comment{
+/* 여행 준비 */
+
+position: absolute;
+width: 173px;
+height: 45px;
+left: 490px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.money_panel{
+/* Rectangle 113 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 803px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.money_panel1{
+/* Rectangle 114 */
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 803px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.add_money{
+/* 비용 추가 */
+
+position: absolute;
+width: 174px;
+height: 46px;
+left: 632px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+z-index: 2;
+
+color: #000000;
+}
+
+.money_panel2{
+/* Rectangle 115 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 973px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.money_panel3{
+/* Rectangle 116 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 973px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.add_money1{
+/* 비용 추가 */
+
+position: absolute;
+width: 174px;
+height: 46px;
+left: 632px;
+top: 988px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+z-index: 2;
+
+color: #000000;
+}
+
+.money_panel4{
+/* Rectangle 117 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 1139px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.money_panel5{
+/* Rectangle 118 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 1139px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.add_money2{
+/* 비용 추가 */
+
+position: absolute;
+width: 174px;
+height: 46px;
+left: 632px;
+top: 1154px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+z-index: 2;
+
+color: #000000;
+}
+
+.money_panel6{
+/* Rectangle 119 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 1313px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.money_panel7{
+/* Rectangle 120 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 1313px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.add_money3{
+/* 비용 추가 */
+
+position: absolute;
+width: 174px;
+height: 46px;
+left: 632px;
+top: 1328px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+z-index: 2;
+
+color: #000000;
+}
+
+.money_panel8{
+/* Rectangle 121 */
+
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 1489px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.money_panel9{
+/* Rectangle 122 */
+
+position: absolute;
+width: 470px;
+height: 76px;
+left: 484px;
+top: 1489px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+.add_money4{
+/* 비용 추가 */
+
+position: absolute;
+width: 174px;
+height: 46px;
+left: 632px;
+top: 1504px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+z-index: 2;
+
+color: #000000;
+}
+
+.day1{
+/* DAY 1 */
+
+position: absolute;
+width: 120px;
+height: 45px;
+left: 488px;
+top: 895px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.day2{
+/* DAY2 */
+
+position: absolute;
+width: 115px;
+height: 45px;
+left: 488px;
+top: 1060px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.day3{
+/* DAY3 */
+
+
+position: absolute;
+width: 115px;
+height: 45px;
+left: 484px;
+top: 1235px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.day4{
+/* DAY4 */
+
+
+position: absolute;
+width: 114px;
+height: 45px;
+left: 485px;
+top: 1410px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.add_date{
+/* 날짜를 추가하세요+ */
+
+
+position: absolute;
+width: 166px;
+height: 24px;
+left: 484px;
+top: 1607px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1565FF;
+}
