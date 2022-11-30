@@ -1,0 +1,551 @@
+
+.mainheader {
+    position: absolute;
+    width: 1728px;
+    height: 103px;
+    left: 0px;
+    top: 0px;
+      
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+
+.tripstory {
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 63px;
+    top: 35px;
+    cursor : pointer;
+    z-index: 2;
+
+    background: transparent;
+    border: 0px solid #000000;
+    border-radius: 10px;
+
+    color: #000000;
+}
+.mytrip{
+    position: absolute;
+    width: 82px;
+    height: 43px;
+    left: 1380px;
+    top: 41px;
+    cursor : pointer;
+    z-index: 2;
+
+    background: transparent;
+    border: 0px solid #000000;
+    border-radius: 10px;
+
+    color: #000000;
+}
+
+.community{
+    position: absolute;
+    width: 101px;
+    height: 43px;
+    left: 1440px;
+    top: 41px;
+    cursor : pointer;
+    z-index: 2;
+
+    background: transparent;
+    border: 0px solid #000000;
+    border-radius: 10px;
+
+    color: #000000;
+}
+
+.menu2{
+    position: absolute;
+    width: 108px;
+    height: 43px;
+    left: 1510px;
+    top: 41px;
+    cursor : pointer;
+    z-index: 2;
+
+    background: transparent;
+    border: 0px solid #000000;
+    border-radius: 10px;
+
+}
+
+.login_text{
+    /* 로그인 */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 108px;
+    height: 43px;
+    left: 1585px;
+    top: 41px;
+    cursor: pointer;
+    z-index: 2;
+
+    background: transparent;
+    border: 0px solid #000000;
+    border-radius: 10px;
+}
+
+/*프로필 사진*/
+.profile{
+    position: absolute;
+    width: 68px;
+    height: 67px;
+    left: 1603px;
+    top: 17px;
+    border-radius: 50px;
+    background: #b7b7b7;
+}
+
+.comment{
+    /* 여행이 쉬워진다 Trip Story */
+
+    position: absolute;
+    width: 288px;
+    height: 340px;
+    left: 129px;
+    top: 430px;
+
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color: #000000;
+}
+
+.comment2{
+    position: absolute;
+    width: 288px;
+    height: 340px;
+    left: 129px;
+    top: 311px;
+
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #000000;
+
+}
+.comment3{
+    position: absolute;
+    width: 288px;
+    height: 340px;
+    left: 129px;
+    top: 380px;
+
+
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #000000;
+}
+
+.image{
+    
+position: absolute;
+width: 1175px;
+height: 715px;
+left: 553px;
+top: 203px;
+
+background-size: cover;
+background: url(image/0.jpg);
+}
+
+.startbutton{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 175px;
+    height: 53px;
+    left: 163px;
+    top: 820px;
+    cursor: pointer;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.comment4{
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    left: 755px;
+    top: 1237px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.step{
+position: absolute;
+width: 974px;
+height: 183px;
+left: 375px;
+top: 1476px;
+
+background: url(image/step.png);
+}
+
+.comment5 {
+    position: absolute;
+    width: 300px;
+    height: 36px;
+    left: 163px;
+    top: 1890px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.comment6 {
+    /* Community */
+    position: absolute;
+    width: 108px;
+    height: 48px;
+    left: 163px;
+    top: 1935px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #C8C8C8;
+}
+
+.popular_city1{
+    position: absolute;
+    width: 492px;
+    height: 240px;
+    left: 358px;
+    top: 2164px;
+    object-fit: contain;
+    cursor : pointer;
+    
+    background: url(image/뉴욕1.jpg);
+    
+}
+
+.popular_city2{
+position: absolute;
+width: 240px;
+height: 240px;
+left: 862px;
+top: 2164px;
+cursor : pointer;
+
+background: url(image/로마1.jpg);
+}
+
+.popular_city3{
+position: absolute;
+width: 240px;
+height: 240px;
+left: 861px;
+top: 2416px;
+cursor : pointer;
+
+background: url(image/모스크바1.jpg);
+}
+
+.popular_city4{
+/* Rectangle 34 */
+
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 861px;
+    top: 2666px;
+    cursor : pointer;
+
+    background: url(image/발리1.jpg);
+}
+
+.popular_city5{
+    /* Rectangle 27 */
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 1114px;
+    top: 2164px;
+    cursor : pointer;
+
+    background: url(image/방콕1.jpg);
+
+}
+
+.popular_city6{
+/* Rectangle 28 */
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 357px;
+top: 2416px;
+cursor : pointer;
+
+background: url(image/베를린1.jpg);
+}
+
+.popular_city7{
+/* Rectangle 29 */
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 609px;
+top: 2416px;
+cursor : pointer;
+
+background: url(image/베이징1.jpg);
+}
+
+.popular_city8{
+/* Rectangle 31 */
+
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 357px;
+top: 2666px;
+cursor : pointer;
+
+background: url(image/부산1.jpg);
+}
+
+.popular_city9{
+/* Rectangle 32 */
+
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 609px;
+top: 2666px;
+cursor : pointer;
+
+background: url(image/빈1.jpg);
+}
+
+.popular_city10{
+/* Rectangle 30 */
+
+
+position: absolute;
+width: 241px;
+height: 492px;
+left: 1113px;
+top: 2415px;
+cursor : pointer;
+
+background: url(image/시드니1.jpg);
+
+}
+
+.icon{
+    /* bi:box-arrow-in-right */
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 285px;
+    top: 3080px;
+
+    background: url(image/icon.jpg);
+}
+
+.comment7 {
+    position: absolute;
+    width: 300px;
+    height: 36px;
+    left: 163px;
+    top: 3050px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.comment8 {
+    /* Community */
+    position: absolute;
+    width: 108px;
+    height: 48px;
+    left: 163px;
+    top: 3100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #C8C8C8;
+}
+
+.community_img1{
+    /* Rectangle 15 */
+
+    position: absolute;
+    width: 307px;
+    height: 418px;
+    left: 200px;
+    top: 3180px;
+
+    background: url(image/후지산.jpg);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+.community_img2{
+    /* Rectangle 16 */
+
+    position: absolute;
+    width: 307px;
+    height: 418px;
+    left: 530px;
+    top: 3180px;
+
+    background: url(image/6.png);
+    filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25));
+}
+
+.community_img3{
+    /* Rectangle 21 */
+
+
+    position: absolute;
+    width: 307px;
+    height: 418px;
+    left: 860px;
+    top: 3180px;
+
+    background: url(image/자유의여신상.jpg);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+.community_img4{
+    /* Rectangle 22 */
+
+
+    position: absolute;
+    width: 307px;
+    height: 418px;
+    left: 1190px;
+    top: 3180px;
+
+    background: url(image/파르테논.jpg);
+    filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25));
+}
+
+.community_comment1{
+
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    left: 270px;
+    top: 3380px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    border: 0px solid #000000;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.community_comment2{
+
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    left: 605px;
+    top: 3380px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    border: 0px solid #000000;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.community_comment3{
+
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    left: 950px;
+    top: 3380px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    border: 0px solid #000000;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.community_comment4{
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    left: 1280px;
+    top: 3380px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    border: 0px solid #000000;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
